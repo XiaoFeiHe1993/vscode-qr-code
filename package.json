@@ -28,29 +28,9 @@
   "activationEvents": [
     "onCommand:extension.QR-code"
   ],
-  "license": "GPL-3.0",
+  "license": "MIT",
   "main": "./out/src",
   "contributes": {
-    "configuration": {
-      "type": "object",
-      "title": "npm configuration",
-      "properties": {
-        "npm.registry": {
-          "type": "string",
-          "default": "https://registry.npmjs.org",
-          "description": "where npm will talk to for package information"
-        },
-        "npm.updateStrategy": {
-          "type": "string",
-          "enum": [
-            "LATEST",
-            "SEMVER"
-          ],
-          "default": "LATEST",
-          "description": "what strategy you want to use to update your package.json"
-        }
-      }
-    },
     "menus": {
       "editor/context": [
         {
@@ -67,7 +47,7 @@
     ]
   },
   "devDependencies": {
-    "@types/node": "^13.1.7",
+    "@types/node": "^13.1.4",
     "typescript": "^3.7.4",
     "vscode": "^1.1.36"
   },

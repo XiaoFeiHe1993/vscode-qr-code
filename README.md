@@ -2,4 +2,4 @@
 
 generate QR-code by you select text
 
-![](https://raw.githubusercontent.com/leftstick/vscode-npm-dependency/master/images/npmDependency.gif)
+![](https://github.com/XiaoFeiHe1993/vscode-qr-code/master/images/code.png)
