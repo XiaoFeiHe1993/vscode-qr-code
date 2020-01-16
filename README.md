@@ -2,4 +2,4 @@
 
 generate QR-code by you select text
 
-![](./images/code.png)
+![image](./images/code.png)
