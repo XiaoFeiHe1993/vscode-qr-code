@@ -2,7 +2,7 @@
   "name": "vscode-qr-code",
   "displayName": "qr-code",
   "description": "generate QR-code by you select text",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "xiaofeihe",
   "engines": {
     "vscode": "^1.3.0"
@@ -13,7 +13,10 @@
     "postinstall": "node ./node_modules/vscode/bin/install"
   },
   "categories": [
-    "Debuggers"
+    "qr-code",
+    "qrcode",
+    "二维码",
+    "text"
   ],
   "icon": "images/logo.png",
   "bugs": {
