@@ -53,9 +53,9 @@
     ]
   },
   "devDependencies": {
-    "@types/node": "^13.1.4",
-    "typescript": "^3.7.4",
-    "vscode": "^1.1.36"
+    "@types/node": "13.13.19",
+    "typescript": "3.7.4",
+    "vscode": "1.1.36"
   },
   "dependencies": {
     "qrcode": "^1.4.4"
